@@ -45,7 +45,7 @@ class Mysqlbk:
 
 my = Mysqlbk(datetime.now(),
              'C:\Program Files\MySQL\MySQL Workbench 8.0',
-             '127.0.0.1', 'lojas', 'marcus', 'abcd.1234')
+             '127.0.0.1', 'banco', 'usuario', 'senha')
 
 saida = r'c:\bk_mysql'
 my.fazerBackup(saida)
